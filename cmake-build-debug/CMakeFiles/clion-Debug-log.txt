@@ -1,0 +1,12 @@
+/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/ninja/linux/x64/ninja -G Ninja -S /home/nathanq/dev/AprilTagPoseEstimation -B /home/nathanq/dev/AprilTagPoseEstimation/cmake-build-debug
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Configuring done (3.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nathanq/dev/AprilTagPoseEstimation/cmake-build-debug

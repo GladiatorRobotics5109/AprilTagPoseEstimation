@@ -1,0 +1,243 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.27.0/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.27.0/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.27.0/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/CTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/CTestUseLaunchers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/CTestTargets.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/DartConfiguration.tcl.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/share/apriltag/cmake/apriltagConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/share/apriltag/cmake/apriltagConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/share/apriltag/cmake/apriltagTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/share/apriltag/cmake/apriltagTargets-release.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/nathanq/dev/AprilTagPoseEstimation/cmake-build-debug",
+		"source" : "/home/nathanq/dev/AprilTagPoseEstimation"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
