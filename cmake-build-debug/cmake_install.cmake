@@ -1,4 +1,4 @@
-# Install script for directory: /home/nathanq/dev/AprilTagPoseEstimation
+# Install script for directory: /home/pi/Robotics/AprilTagPoseEstimation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nathanq/dev/AprilTagPoseEstimation/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

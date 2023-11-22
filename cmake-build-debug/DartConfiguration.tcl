@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/nathanq/dev/AprilTagPoseEstimation
-BuildDirectory: /home/nathanq/dev/AprilTagPoseEstimation/cmake-build-debug
+SourceDirectory: /home/pi/Robotics/AprilTagPoseEstimation
+BuildDirectory: /home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: NatesHomeBuilt
+Site: raspberrypi
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Linux-c++
@@ -27,8 +27,8 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/bin/cmake" "/home/nathanq/dev/AprilTagPoseEstimation"
-MakeCommand: /home/nathanq/.cache/JetBrains/RemoteDev/dist/2203e709e1a54_CLion-233.11555.2/bin/cmake/linux/x64/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "/home/pi/.cache/JetBrains/RemoteDev/dist/c0ab96c1f8a11_CLion-233.11799.37-aarch64/bin/cmake/linux/aarch64/bin/cmake" "/home/pi/Robotics/AprilTagPoseEstimation"
+MakeCommand: /home/pi/.cache/JetBrains/RemoteDev/dist/c0ab96c1f8a11_CLion-233.11799.37-aarch64/bin/cmake/linux/aarch64/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -64,7 +64,7 @@ UpdateType: git
 
 # Compiler info
 Compiler: /usr/bin/c++
-CompilerVersion: 11.4.0
+CompilerVersion: 12.2.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

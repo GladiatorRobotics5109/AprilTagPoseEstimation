@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AprilTagPoseEstimation"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\aarch64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\aarch64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\aarch64-linux-gnu\cmake\opencv4\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\apriltag\;CMake Files\..\..\..\..\usr\local\share\apriltag\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AprilTagPoseEstimation">
+				<Option output="/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/AprilTagPoseEstimation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 AprilTagPoseEstimation"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AprilTagPoseEstimation/fast">
+				<Option output="/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/AprilTagPoseEstimation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 AprilTagPoseEstimation/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/pi/Robotics/AprilTagPoseEstimation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pi/Robotics/AprilTagPoseEstimation/main.cpp">
+			<Option target="AprilTagPoseEstimation"/>
+		</Unit>
+		<Unit filename="/home/pi/Robotics/AprilTagPoseEstimation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/pi/Robotics/AprilTagPoseEstimation/../../../../usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\aarch64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/pi/Robotics/AprilTagPoseEstimation/../../../../usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\aarch64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/pi/Robotics/AprilTagPoseEstimation/../../../../usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\aarch64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/pi/Robotics/AprilTagPoseEstimation/../../../../usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\aarch64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/pi/Robotics/AprilTagPoseEstimation/../../../../usr/local/share/apriltag/cmake/apriltagConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\apriltag\cmake\"/>
+		</Unit>
+		<Unit filename="/home/pi/Robotics/AprilTagPoseEstimation/../../../../usr/local/share/apriltag/cmake/apriltagConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\apriltag\cmake\"/>
+		</Unit>
+		<Unit filename="/home/pi/Robotics/AprilTagPoseEstimation/../../../../usr/local/share/apriltag/cmake/apriltagTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\apriltag\cmake\"/>
+		</Unit>
+		<Unit filename="/home/pi/Robotics/AprilTagPoseEstimation/../../../../usr/local/share/apriltag/cmake/apriltagTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\apriltag\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
