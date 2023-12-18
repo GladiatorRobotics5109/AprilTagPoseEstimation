@@ -148,21 +148,34 @@ CMakeFiles/AprilTagPoseEstimation.dir/main.cpp.o: \
  /usr/include/c++/12/bits/locale_facets.tcc \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/iomanip \
- /usr/include/c++/12/locale \
- /usr/include/c++/12/bits/locale_facets_nonio.h /usr/include/c++/12/ctime \
- /usr/include/aarch64-linux-gnu/c++/12/bits/time_members.h \
- /usr/include/aarch64-linux-gnu/c++/12/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/12/bits/codecvt.h \
- /usr/include/c++/12/bits/locale_facets_nonio.tcc \
- /usr/include/c++/12/bits/locale_conv.h \
- /usr/include/c++/12/bits/quoted_string.h /usr/include/c++/12/sstream \
- /usr/include/c++/12/bits/sstream.tcc \
+ /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/cmath \
+ /usr/include/math.h /usr/include/aarch64-linux-gnu/bits/math-vector.h \
+ /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
+ /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
+ /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
+ /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/12/bits/specfun.h /usr/include/c++/12/limits \
+ /usr/include/c++/12/tr1/gamma.tcc \
+ /usr/include/c++/12/tr1/special_function_util.h \
+ /usr/include/c++/12/tr1/bessel_function.tcc \
+ /usr/include/c++/12/tr1/beta_function.tcc \
+ /usr/include/c++/12/tr1/ell_integral.tcc \
+ /usr/include/c++/12/tr1/exp_integral.tcc \
+ /usr/include/c++/12/tr1/hypergeometric.tcc \
+ /usr/include/c++/12/tr1/legendre_function.tcc \
+ /usr/include/c++/12/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/12/tr1/poly_hermite.tcc \
+ /usr/include/c++/12/tr1/poly_laguerre.tcc \
+ /usr/include/c++/12/tr1/riemann_zeta.tcc \
  /usr/include/opencv4/opencv2/opencv.hpp \
  /usr/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/include/opencv4/opencv2/core.hpp \
  /usr/include/opencv4/opencv2/core/cvdef.h \
- /usr/include/opencv4/opencv2/core/version.hpp /usr/include/c++/12/limits \
+ /usr/include/opencv4/opencv2/core/version.hpp \
  /usr/include/opencv4/opencv2/core/hal/interface.h \
  /usr/include/c++/12/cstddef \
  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
@@ -188,28 +201,7 @@ CMakeFiles/AprilTagPoseEstimation.dir/main.cpp.o: \
  /usr/include/c++/12/pstl/execution_defs.h \
  /usr/include/opencv4/opencv2/core/cvstd.hpp /usr/include/c++/12/cstring \
  /usr/include/string.h /usr/include/strings.h /usr/include/c++/12/utility \
- /usr/include/c++/12/bits/stl_relops.h /usr/include/c++/12/cmath \
- /usr/include/math.h /usr/include/aarch64-linux-gnu/bits/math-vector.h \
- /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
- /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
- /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
- /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
- /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
- /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
- /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
- /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/12/bits/specfun.h /usr/include/c++/12/tr1/gamma.tcc \
- /usr/include/c++/12/tr1/special_function_util.h \
- /usr/include/c++/12/tr1/bessel_function.tcc \
- /usr/include/c++/12/tr1/beta_function.tcc \
- /usr/include/c++/12/tr1/ell_integral.tcc \
- /usr/include/c++/12/tr1/exp_integral.tcc \
- /usr/include/c++/12/tr1/hypergeometric.tcc \
- /usr/include/c++/12/tr1/legendre_function.tcc \
- /usr/include/c++/12/tr1/modified_bessel_func.tcc \
- /usr/include/c++/12/tr1/poly_hermite.tcc \
- /usr/include/c++/12/tr1/poly_laguerre.tcc \
- /usr/include/c++/12/tr1/riemann_zeta.tcc \
+ /usr/include/c++/12/bits/stl_relops.h \
  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
  /usr/include/c++/12/memory /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
@@ -244,7 +236,8 @@ CMakeFiles/AprilTagPoseEstimation.dir/main.cpp.o: \
  /usr/include/opencv4/opencv2/core/persistence.hpp \
  /usr/include/opencv4/opencv2/core/operations.hpp \
  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
- /usr/include/c++/12/complex \
+ /usr/include/c++/12/complex /usr/include/c++/12/sstream \
+ /usr/include/c++/12/bits/sstream.tcc \
  /usr/include/opencv4/opencv2/core/utility.hpp \
  /usr/include/c++/12/functional /usr/include/c++/12/bits/std_function.h \
  /usr/include/c++/12/unordered_map /usr/include/c++/12/bits/hashtable.h \
@@ -254,7 +247,7 @@ CMakeFiles/AprilTagPoseEstimation.dir/main.cpp.o: \
  /usr/include/c++/12/bits/unordered_map.h \
  /usr/include/c++/12/bits/erase_if.h /usr/include/c++/12/mutex \
  /usr/include/c++/12/bits/chrono.h /usr/include/c++/12/ratio \
- /usr/include/c++/12/bits/parse_numbers.h \
+ /usr/include/c++/12/ctime /usr/include/c++/12/bits/parse_numbers.h \
  /usr/include/c++/12/bits/std_mutex.h \
  /usr/include/c++/12/bits/unique_lock.h \
  /usr/include/opencv4/opencv2/core/optim.hpp \
@@ -304,7 +297,14 @@ CMakeFiles/AprilTagPoseEstimation.dir/main.cpp.o: \
  /usr/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
  /usr/include/opencv4/opencv2/flann/lsh_index.h \
  /usr/include/opencv4/opencv2/flann/lsh_table.h \
- /usr/include/c++/12/math.h \
+ /usr/include/c++/12/iomanip /usr/include/c++/12/locale \
+ /usr/include/c++/12/bits/locale_facets_nonio.h \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/time_members.h \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/12/bits/codecvt.h \
+ /usr/include/c++/12/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/12/bits/locale_conv.h \
+ /usr/include/c++/12/bits/quoted_string.h /usr/include/c++/12/math.h \
  /usr/include/opencv4/opencv2/flann/autotuned_index.h \
  /usr/include/opencv4/opencv2/flann/ground_truth.h \
  /usr/include/opencv4/opencv2/flann/index_testing.h \
@@ -347,6 +347,9 @@ CMakeFiles/AprilTagPoseEstimation.dir/main.cpp.o: \
  /usr/include/opencv4/opencv2/video.hpp \
  /usr/include/opencv4/opencv2/video/tracking.hpp \
  /usr/include/opencv4/opencv2/video/background_segm.hpp \
+ /usr/include/opencv4/opencv2/aruco/charuco.hpp \
+ /usr/include/opencv4/opencv2/aruco.hpp \
+ /usr/include/opencv4/opencv2/aruco/dictionary.hpp \
  /usr/local/include/apriltag/apriltag.h \
  /usr/local/include/apriltag/common/matd.h \
  /usr/local/include/apriltag/common/image_u8.h \
@@ -364,4 +367,6 @@ CMakeFiles/AprilTagPoseEstimation.dir/main.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /usr/local/include/apriltag/common/pthreads_cross.h
+ /usr/local/include/apriltag/common/pthreads_cross.h \
+ /usr/local/include/apriltag/tag16h5.h \
+ /usr/local/include/apriltag/apriltag_pose.h
