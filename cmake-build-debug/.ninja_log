@@ -1,7 +1,0 @@
-# ninja log v5
-0	220	1699721383243050792	CMakeFiles/AprilTagPoseEstimation.dir/main.cpp.o	8c5bc2608e115907
-221	741	1699721383763050784	AprilTagPoseEstimation	29fd1b8157c24fdc
-1	1669	1699721411383050474	CMakeFiles/AprilTagPoseEstimation.dir/main.cpp.o	8c5bc2608e115907
-1669	2212	1699721411923050466	AprilTagPoseEstimation	29fd1b8157c24fdc
-1	1880	1699722413505283644	CMakeFiles/AprilTagPoseEstimation.dir/main.cpp.o	8c5bc2608e115907
-1880	3402	1699722415025287902	AprilTagPoseEstimation	29fd1b8157c24fdc
