@@ -1,3 +1,4 @@
+clear
 mkdir build
 cd build
 cmake ..

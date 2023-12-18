@@ -11,7 +11,7 @@ find_package(OpenCV REQUIRED)
 find_package(apriltag REQUIRED)
 
 file(GLOB AprilTagPoseEstimation_SRC
-    "src/*.h"
+    "src/*.hpp"
     "src/*.cpp"
 )
 
