@@ -10,9 +10,14 @@ namespace AprilPoseEstimator
     class Logger
     {
     public:
-        static inline void LogPose(std::string prefix, Vec3 pose)
+        static inline void InfoVec3(std::string prefix, Vec3 pose)
         {
-            std::cout << prefix << ": (" << pose.x << ", " << pose.y << ", " << pose.z << ")" << std::endl;
+            std::cout << "[INFO] " << prefix << ": (" << pose.x << ", " << pose.y << ", " << pose.z << ")" << std::endl;
+        }
+        
+        static inline void InfoDouble(std::string prefix, double dbl)
+        {
+            std::cout << "[INFO] " << prefix << ": " << dbl << std::endl;
         }
 
         static inline void Info(std::string a)

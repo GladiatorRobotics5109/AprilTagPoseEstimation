@@ -1,5 +1,7 @@
 clear
 mkdir build
 cd build
-cmake ..
-make
+echo ---- Generating Project Files ----
+time cmake ..
+echo ---- Building Project ----
+time make

@@ -1,6 +1,3 @@
-#include <iostream>
-#include <cmath>
-
 #include <opencv2/opencv.hpp>
 
 #include <apriltag/apriltag.h>
@@ -8,8 +5,8 @@
 #include <apriltag/apriltag_pose.h>
 
 #include "common/Common.hpp"
-#include "PoseEstimator.hpp"
 #include "common/Logger.hpp"
+#include "PoseEstimator.hpp"
 
 using namespace AprilPoseEstimator;
 
@@ -28,6 +25,8 @@ int main()
 
     while (true)
     {
+        auto startTime = std::chrono::steady_clock::now();
+
         cap >> frame;
         if (frame.empty())
         {
@@ -36,11 +35,15 @@ int main()
         }
         
         Vec3 estimatedPose = PoseEstimator::GetPose(frame);
-        Logger::LogPose("tag 0 pose", estimatedPose);
+        Logger::InfoVec3("camera pose", estimatedPose);
 
         cv::imshow("Camera output", frame);
         if (cv::pollKey() == 27) // if esc pressed -> exit
             break;
+        
+        auto endTime = std::chrono::steady_clock::now();
+        auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime);
+        // Logger::InfoDouble("Frame time (ms)", (double)duration.count());
     }
 
     return 0;
