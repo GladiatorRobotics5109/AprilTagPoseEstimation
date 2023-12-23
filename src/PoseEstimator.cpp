@@ -89,7 +89,7 @@ namespace AprilPoseEstimator
             // estimate position of tag
             // get focal length based of fov of camera
             double xFocalLength = (im.width / 2) / tan((PE_CAMERA_HORIZONTAL_FOV / 2) * (PI / 180));
-            double yFocalLength = (im.height / 2) / tan((PE_CAMERA_VERTICLE_FOV / 2) * (PI / 180));
+            double yFocalLength = (im.height / 2) / tan((PE_CAMERA_VERTICAL_FOV / 2) * (PI / 180));
 
             apriltag_detection_info_t info = {
                 .det = det,
