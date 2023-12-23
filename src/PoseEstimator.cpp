@@ -12,13 +12,16 @@ namespace AprilPoseEstimator
         // setup april tags
         s_tf = tag16h5_create();
         s_td = apriltag_detector_create();
+        s_td->quad_decimate = 2;
+        s_td->quad_sigma = 4;
+        //s_td->nthreads = 4;
         apriltag_detector_add_family(s_td, s_tf);
 
         s_apriltagPoses = {
             {0, Vec3(0, 0, 0)},
-            {1, Vec3(.2, 0, 0)},
-            {2, Vec3(-0.2, 0, 0)},
-            {3, Vec3(0, -.1, 0)}
+            {1, Vec3(0.5, 0, 0)},
+            {2, Vec3(-0.5, 0, 0)},
+            //{3, Vec3(0, -.1, 0)}
         };
     }
 
@@ -42,7 +45,7 @@ namespace AprilPoseEstimator
             apriltag_detection_t *det;
             zarray_get(detections, i, &det);
             // if (det->id != 0) continue; // skip if tag not 0 (for testing only)
-            if (det->id > 3) continue;
+            if (det->id > 2) continue;
             // draw lines around detected tag
             line(frame, 
                 cv::Point(det->p[0][0], det->p[0][1]), 

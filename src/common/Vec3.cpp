@@ -19,7 +19,7 @@ namespace AprilPoseEstimator
     Vec3::Vec3(apriltag_pose_t pose)
     {
         this->x = pose.t->data[0];
-        this->y = pose.t->data[1];
+        this->y = -pose.t->data[1];
         this->z = pose.t->data[2];
     }
 

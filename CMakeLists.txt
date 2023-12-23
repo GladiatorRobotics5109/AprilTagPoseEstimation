@@ -17,4 +17,6 @@ file(GLOB AprilTagPoseEstimation_SRC
 
 add_executable(AprilTagPoseEstimation ${AprilTagPoseEstimation_SRC})
 
+target_include_directories(AprilTagPoseEstimation PUBLIC /usr/local/include)
+
 target_link_libraries(AprilTagPoseEstimation ${OpenCV_LIBS} ${AprilTagLib})
